@@ -1,15 +1,24 @@
 body {
   /*background-color: papayawhip;*/
-  background-color: white;
-
+  background-color: whitesmoke;
 }
 
 h4 {
   line-height: 0px;
 }
 
+h3 {
+  text-align:center;
+  margin-top: 40px;
+}
+
+div {
+  padding: 50px;
+  text-align: center;
+}
+
 .col-xs-4 {
-    background: white;
+    background: peachpuff;
     height: 200px;
   /*margin: 0 auto;*/
   /*float:none;*/
@@ -17,7 +26,7 @@ h4 {
 
 [class*="col"] {
     height: 60%;
-    background:WhiteSmoke;
+    background: white;
 /*  float:none;*/
   }
   /* either add "float-none on the specific column or attribute selector above or add a style for center-block with float:none */
@@ -25,15 +34,12 @@ h4 {
 .center-block {
   float:none;
 }
-h3 {
-  text-align:center;
-  margin-top: 40px;
-}
+
+
 .example2 {
   margin-top: 20px;
 }
 
-div {
-  padding: 50px;
-  text-align: center;
+.panel {
+  background-color: white;
 }
