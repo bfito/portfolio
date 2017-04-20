@@ -1,13 +1,23 @@
+body {
+  /*background-color: papayawhip;*/
+  background-color: white;
+
+}
+
+h4 {
+  line-height: 0px;
+}
+
 .col-xs-4 {
-    background: green;
+    background: white;
     height: 200px;
   /*margin: 0 auto;*/
   /*float:none;*/
 }
 
 [class*="col"] {
-    height: 200px;
-    background:green;
+    height: 60%;
+    background:WhiteSmoke;
 /*  float:none;*/
   }
   /* either add "float-none on the specific column or attribute selector above or add a style for center-block with float:none */
@@ -25,4 +35,5 @@ h3 {
 
 div {
   padding: 50px;
+  text-align: center;
 }
